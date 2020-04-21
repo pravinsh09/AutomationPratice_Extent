@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testscripts A" duration-ms="241834" started-at="2020-04-16T18:02:53Z" finished-at="2020-04-16T18:06:55Z">
+    <groups>
+    </groups>
+    <test name="testscript A1" duration-ms="43549" started-at="2020-04-16T18:02:53Z" finished-at="2020-04-16T18:03:36Z">
+      <class name="com.TestScripts.TC_cart">
+        <test-method status="PASS" signature="Test_cart()[pri:0, instance:com.TestScripts.TC_cart@51cdd8a]" name="Test_cart" duration-ms="42270" started-at="2020-04-16T23:32:53Z" finished-at="2020-04-16T23:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_cart -->
+        <test-method status="PASS" signature="driverquit()[pri:0, instance:com.TestScripts.TC_cart@51cdd8a]" name="driverquit" is-config="true" duration-ms="805" started-at="2020-04-16T23:33:35Z" finished-at="2020-04-16T23:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverquit -->
+      </class> <!-- com.TestScripts.TC_cart -->
+    </test> <!-- testscript A1 -->
+    <test name="testscript A2" duration-ms="55119" started-at="2020-04-16T18:03:36Z" finished-at="2020-04-16T18:04:31Z">
+      <class name="com.TestScripts.TC_contactUs">
+        <test-method status="PASS" signature="Test_contactUs()[pri:0, instance:com.TestScripts.TC_contactUs@1b68ddbd]" name="Test_contactUs" duration-ms="54267" started-at="2020-04-16T23:33:36Z" finished-at="2020-04-16T23:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_contactUs -->
+        <test-method status="PASS" signature="driverquit()[pri:0, instance:com.TestScripts.TC_contactUs@1b68ddbd]" name="driverquit" is-config="true" duration-ms="697" started-at="2020-04-16T23:34:31Z" finished-at="2020-04-16T23:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverquit -->
+      </class> <!-- com.TestScripts.TC_contactUs -->
+    </test> <!-- testscript A2 -->
+    <test name="testscript A3" duration-ms="72672" started-at="2020-04-16T18:04:31Z" finished-at="2020-04-16T18:05:44Z">
+      <class name="com.TestScripts.TC_end2End">
+        <test-method status="FAIL" signature="Testcase_end2End()[pri:0, instance:com.TestScripts.TC_end2End@6ee52dcd]" name="Testcase_end2End" duration-ms="71863" started-at="2020-04-16T23:34:31Z" finished-at="2020-04-16T23:35:43Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-POAGQJIB', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Pravin\AppData\Local\Temp\scoped_dir6596_940055500}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62309}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: d2228966ab2e96c0ed0587f7434c6da3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-POAGQJIB', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\Pravin\AppData\Local\Temp\scoped_dir6596_940055500}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62309}, acceptInsecureCerts=false, browserVersion=80.0.3987.163, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: d2228966ab2e96c0ed0587f7434c6da3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:522)
+	at com.Pages.HomePage.click_ProductQuickview(HomePage.java:30)
+	at com.TestScripts.TC_end2End.Testcase_end2End(TC_end2End.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_end2End -->
+        <test-method status="PASS" signature="driverquit()[pri:0, instance:com.TestScripts.TC_end2End@6ee52dcd]" name="driverquit" is-config="true" duration-ms="732" started-at="2020-04-16T23:35:43Z" finished-at="2020-04-16T23:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverquit -->
+      </class> <!-- com.TestScripts.TC_end2End -->
+    </test> <!-- testscript A3 -->
+    <test name="testscript A4" duration-ms="70428" started-at="2020-04-16T18:05:44Z" finished-at="2020-04-16T18:06:55Z">
+      <class name="com.TestScripts.TC_signUp_Purchase">
+        <test-method status="PASS" signature="Testcase_signUp_Purchase()[pri:0, instance:com.TestScripts.TC_signUp_Purchase@11438d26]" name="Testcase_signUp_Purchase" duration-ms="69664" started-at="2020-04-16T23:35:44Z" finished-at="2020-04-16T23:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_signUp_Purchase -->
+        <test-method status="PASS" signature="driverquit()[pri:0, instance:com.TestScripts.TC_signUp_Purchase@11438d26]" name="driverquit" is-config="true" duration-ms="710" started-at="2020-04-16T23:36:54Z" finished-at="2020-04-16T23:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverquit -->
+      </class> <!-- com.TestScripts.TC_signUp_Purchase -->
+    </test> <!-- testscript A4 -->
+  </suite> <!-- Testscripts A -->
+</testng-results>

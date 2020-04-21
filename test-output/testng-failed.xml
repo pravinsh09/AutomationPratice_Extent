@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testscripts A]">
+  <listeners>
+    <listener class-name="com.listeners.CustomListeners"/>
+  </listeners>
+  <test name="testscript A3(failed)">
+    <classes>
+      <class name="com.TestScripts.TC_end2End">
+        <methods>
+          <include name="Testcase_end2End"/>
+          <include name="driverquit"/>
+        </methods>
+      </class> <!-- com.TestScripts.TC_end2End -->
+    </classes>
+  </test> <!-- testscript A3(failed) -->
+</suite> <!-- Failed suite [Testscripts A] -->

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testscripts A">
+
+ <listeners>
+       <listener class-name="com.listeners.CustomListeners"/>
+  </listeners>
+  
+<test name="testscript A1">
+    <classes>
+        <class name="com.TestScripts.TC_cart" ></class>  
+    </classes>
+</test>
+
+<test name="testscript A2">
+    <classes>
+        <class name="com.TestScripts.TC_contactUs" ></class>  
+    </classes>
+</test>
+
+</suite>
+

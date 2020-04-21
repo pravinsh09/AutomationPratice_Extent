@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testscripts A]">
+  <test name="testscript A1(failed)">
+    <classes>
+      <class name="com.TestScripts.TC_cart">
+        <methods>
+          <include name="testcase1"/>
+          <include name="driverquit"/>
+        </methods>
+      </class> <!-- com.TestScripts.TC_cart -->
+    </classes>
+  </test> <!-- testscript A1(failed) -->
+  <test name="testscript A2(failed)">
+    <classes>
+      <class name="com.TestScripts.TC_contactUs">
+        <methods>
+          <include name="driverquit"/>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- com.TestScripts.TC_contactUs -->
+    </classes>
+  </test> <!-- testscript A2(failed) -->
+  <test name="testscript A3(failed)">
+    <classes>
+      <class name="com.TestScripts.TC_end2End">
+        <methods>
+          <include name="driverquit"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.TestScripts.TC_end2End -->
+    </classes>
+  </test> <!-- testscript A3(failed) -->
+  <test name="testscript A4(failed)">
+    <classes>
+      <class name="com.TestScripts.TC_signUp_Purchase">
+        <methods>
+          <include name="testcase2"/>
+          <include name="driverquit"/>
+        </methods>
+      </class> <!-- com.TestScripts.TC_signUp_Purchase -->
+    </classes>
+  </test> <!-- testscript A4(failed) -->
+</suite> <!-- Failed suite [Testscripts A] -->

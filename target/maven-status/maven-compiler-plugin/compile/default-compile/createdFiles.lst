@@ -1,0 +1,15 @@
+com\TestScripts\TC_cart.class
+com\TestBase\Test_Base.class
+com\Pages\AccountPage.class
+com\Pages\AddCartPage.class
+com\Util\Util.class
+com\Pages\ContactUsPage.class
+com\Pages\HomePage.class
+com\Pages\OrderHistoryPages.class
+com\Pages\ShippingPage.class
+com\Pages\SummaryPage.class
+com\TestScripts\TC_contactUs.class
+com\TestScripts\TC_end2End.class
+com\TestScripts\TC_signUp_Purchase.class
+com\Pages\AddressPage.class
+com\Pages\PaymentPage.class

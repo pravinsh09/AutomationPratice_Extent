@@ -1,0 +1,5 @@
+com\TestScripts\TC_signUp_Purchase.class
+com\Util\Util.class
+com\TestScripts\TC_cart.class
+com\TestScripts\TC_contactUs.class
+com\TestScripts\TC_end2End.class
